@@ -1,0 +1,34 @@
+.inicio{
+    color: white;
+    font-style: normal;
+    justify-content: flex-start;
+    display: flex;
+    text-align: center;
+    padding: top right bottom left;
+    font-size: 17px;
+}
+
+.registro{
+    text-decoration: none;
+    color: white;
+}
+
+.enter{
+    text-decoration: none;
+    color: white;
+}
+
+.produtos {
+    border: 5px green;
+    border-style: outset;
+    border-radius: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s; /*determina o tempo de transição para volta do estado normal font-size: 40px;*/
+    cursor: pointer;
+}
+
+.produtos:hover { /*estilos que são adicionados ao passar o cursor no elemento*/
+    border: 5px outset green;
+    border-radius: 10px 20px;
+    transition: 1s;  /*determina o tempo de transição para aplicação dos estilos*/
+}
